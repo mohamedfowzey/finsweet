@@ -1,0 +1,42 @@
+
+.bg-primary{
+    background-color: var(---primary) !important;
+    color: var(---text-light--)!important;
+    font-weight: 600;
+}
+.bg-light{
+    background-color: var(---light) !important;
+}
+.btn,.btn:hover,.btn:active{
+    border: 2px solid var(---text-light--)!important;
+    color: white !important;
+    padding: 0.7rem 2rem
+}
+.btn-primary,.btn-primary:hover,.btn-primary:active{
+    background-color: var(---btn-primary)!important;
+    color: var(---primary) !important;
+}
+.hero{
+    min-height: calc(100vh - 65px);
+}
+.nav-link{
+    color: var(---text-light--);
+}
+.nav-link:hover,.nav-link:focus,.active{color: white !important;}
+.py-6{
+    padding: 8rem 0 ;
+}
+.p-6{padding: 8rem}
+.text-yellow{
+    color: var(---btn-primary);
+}
+.bg-yellow{
+    background-color: var(---btn-primary);
+    color: var(---primary);
+}
+.bg-very-light{
+    background-color: var(---very-light);
+}
+.text-secondary{
+    color: var(---secondary) !important;
+}
