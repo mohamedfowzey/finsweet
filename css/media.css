@@ -3,6 +3,8 @@ p{
     font-weight: var(---text-light);
     font-size: 1rem;
     line-height: 24px;
+    color: rgba(40, 41, 56, 1);
+
 }
 .text-qoute{
     font-weight: var(---text-light);
