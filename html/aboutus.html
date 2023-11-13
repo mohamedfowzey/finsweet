@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Finsweet | Home</title>
+    <title>Finsweet | about us</title>
 
     <!-- ### Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,9 +28,10 @@
     <link rel="stylesheet" href="../css/media.css" />
 
     <!-- Page CSS -->
+    <link rel="stylesheet" href="../css/aboutus.css" />
   </head>
   <body>
-    <header>
+    <header class="sticky-top">
       <nav class="navbar navbar-expand-md bg-primary">
         <div class="container">
           <a class="navbar-brand" href="#"
@@ -50,27 +51,27 @@
           <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#" aria-current="page"
-                  >Home <span class="visually-hidden">(current)</span></a
+                <a class="nav-link" href="./home.html" aria-current="page"
+                  >Home </a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">about us</a>
+                <a class="nav-link active" href="./aboutus.html">about us <span class="visually-hidden">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="./features.html">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="./pricing.html">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
+                <a class="nav-link" href="#faqs">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">blog</a>
+                <a class="nav-link" href="./blog.html">blog</a>
               </li>
             </ul>
-            <a class="btn rounded-pill ms-5">contact us</a>
+            <a href="./contact.html" class="btn rounded-pill ms-5">contact us</a>
           </div>
         </div>
       </nav>
@@ -85,8 +86,8 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt.
             </p>
-            <a href="" class="btn btn-primary rounded-pill">View our work</a>
-            <a href="" class="text-decoration-none text-white ms-5"
+            <a href="./work.html" class="btn btn-primary rounded-pill">View our work</a>
+            <a href="./pricing.html" class="text-decoration-none text-white ms-5"
               >view pricing <i class="fa-solid fa-arrow-right ms-2"></i
             ></a>
           </div>
@@ -199,7 +200,7 @@
     </section>
     <section class="py-6">
       <div class="container">
-        <h2 class="text-center pb-5">the benfits of working with us</h2>
+        <h2 class="text-center pb-5 heading">the benfits of working with us</h2>
         <div class="row">
           <div class="col-md-4 p-3">
             <div class="bg-light p-5">
@@ -234,6 +235,14 @@
               </p>
             </div>
           </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-6"><img src="../assets/images/icons/Logo Number.png" alt=""></div>
+          <div class="col-lg-2 col-md-3 col-6"><img src="../assets/images/icons/Logo 1.png" alt=""></div>
+          <div class="col-lg-2 col-md-3 col-6"><img src="../assets/images/icons/Logo 2.png" alt=""></div>
+          <div class="col-lg-2 col-md-3 col-6"><img src="../assets/images/icons/Logo 3.png" alt=""></div>
+          <div class="col-lg-2 col-md-3 col-6"><img src="../assets/images/icons/Logo 4.png" alt=""></div>
+          <div class="col-lg-2 col-md-3 col-6"><img src="../assets/images/icons/Logo 5.png" alt=""></div>
         </div>
       </div>
     </section>
@@ -241,48 +250,129 @@
       <div class="container">
         <h2 class="text-center pb-5">Meet our teem</h2>
         <div class="row">
-          <div class="pe-3  col-md-3">
+          <div class="pe-3 col-md-3">
             <div class="text-center bg-white p-5">
+              <div class="hover-effect rounded-circle w-100 mb-4">
                 <img
                   src="../assets/images/man-in-black-suit-holding-a-calling-card-3785104.png"
-                  class="rounded-circle w-100 mb-4"
+                  class="w-100"
                 />
-                <h6>john smith</h6>
-                <p class="text-black-50">CEO</p>
+                <div class="over-lay">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>                 
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+              <h6>john smith</h6>
+              <p class="text-black-50">CEO</p>
             </div>
           </div>
-          <div class="pe-3  col-md-3">
+          <div class="pe-3 col-md-3">
             <div class="text-center bg-white p-5">
+              <div class="hover-effect rounded-circle w-100 mb-4">
                 <img
                   src="../assets/images/serious-man-3760373.png"
-                  class="rounded-circle w-100 mb-4"
+                  class="w-100"
                 />
-                <h6>simon adams</h6>
-                <p class="text-black-50">CTO</p>
+                <div class="over-lay">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>                 
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+              <h6>simon adams</h6>
+              <p class="text-black-50">CTO</p>
             </div>
           </div>
-          <div class="pe-3  col-md-3">
+          <div class="pe-3 col-md-3">
             <div class="text-center bg-white p-5">
+              <div class="hover-effect rounded-circle w-100 mb-4">
                 <img
                   src="../assets/images/man-in-white-shirt-wearing-blue-bucket-hat-6626874.png"
-                  class="rounded-circle w-100 mb-4"
+                  class="w-100"
                 />
-                <h6>paul jones</h6>
-                <p class="text-black-50">Design lead</p>
+                <div class="over-lay">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>                 
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+              <h6>paul jones</h6>
+              <p class="text-black-50">Design lead</p>
             </div>
           </div>
-          <div class="pe-3  col-md-3">
+          <div class="pe-3 col-md-3">
             <div class="text-center bg-white p-5">
+              <div class="hover-effect rounded-circle w-100 mb-4">
                 <img
                   src="../assets/images/transgender-model-touching-forehead-in-neon-light-7613875.png"
-                  class="rounded-circle w-100 mb-4"
+                  class="w-100"
                 />
-                <h6>sara hardin</h6>
-                <p class="text-black-50">project manager</p>
+                <div class="over-lay">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>                 
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+              <h6>sara hardin</h6>
+              <p class="text-black-50">project manager</p>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <footer class="py-6 pb-0 bg-primary">
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-md-6 pe-5">
+            <img src="../assets/images/logo.svg" alt="" class="mb-5" />
+            <p class="pe-5">
+              We are always open to discuss your project and improve your online
+              presence.
+            </p>
+          </div>
+          <div class="col-md-6 ps-5">
+            <h2>Let's Talk</h2>
+            <p>
+              We are always open to discuss your project, improve your online
+              presence and help with your UX/UI design challenges.
+            </p>
+            <i class="fa-brands fa-twitter me-3"></i>
+            <i class="fa-brands fa-facebook me-3"></i>
+            <i class="fa-brands fa-instagram me-3"></i>
+            <i class="fa-brands fa-pinterest me-3"></i>
+            <a href="./privacy.html" class="text-decoration-none d-block">Privacy Policy</a>
+          </div>
+          <div class="w-auto d-flex bg-yellow">
+            <div class="col-6">
+              <h6>Email me at</h6>
+              <p>contact@website.com</p>
+            </div>
+            <div class="col-6 ps-5">
+              <h6>contact us</h6>
+              <p>0927627728525</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="bg-white text-black pt-4">
+        <div class="container">
+          <div class="row">
+            <p class="col-7">Copyright 2021, Finsweet.com</p>
+            <ul
+              class="d-none d-md-flex justify-content-around align-items-center ms-auto list-unstyled col-5"
+            >
+              <li><a href="#">Home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">features</a></li>
+              <li><a href="#">pricing</a></li>
+              <li><a href="#">faqs</a></li>
+              <li><a href="#">blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    <script src="../js/lib/bootstrap/bootstrap.bundle.min.js"></script>
   </body>
 </html>

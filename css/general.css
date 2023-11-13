@@ -1,9 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 .bg-primary{
     background-color: var(---primary) !important;
-    color: var(---text-light--)!important;
+    /* color: var(---text-light--)!important; */
     font-weight: 600;
 }
 .bg-light{
@@ -12,19 +15,23 @@ body{
 .btn,.btn:hover,.btn:active{
     border: 2px solid var(---text-light--)!important;
     color: white !important;
-    padding: 0.7rem 2rem
+    padding: 0.7rem 2rem;
+    width: fit-content;
 }
 .btn-primary,.btn-primary:hover,.btn-primary:active{
     background-color: var(---btn-primary)!important;
     color: var(---primary) !important;
 }
+.btn-primary:hover{
+    background-color: var(---yellow-light);
+}
 .hero{
     min-height: calc(100vh - 65px);
 }
-.nav-link{
+header .nav-link{
     color: var(---text-light--);
 }
-.nav-link:hover,.nav-link:focus,.active{color: white !important;}
+header .nav-link:hover,header .nav-link:focus,header .active{color: white !important;}
 .py-6{
     padding: 8rem 0 ;
 }
@@ -36,9 +43,39 @@ body{
     background-color: var(---btn-primary);
     color: var(---primary);
 }
+.bg-yellow-light{
+    background-color: var(---yellow-light);
+    color: var(---primary);
+}
 .bg-very-light{
     background-color: var(---very-light);
 }
 .text-secondary{
     color: var(---secondary) !important;
+}
+.heading{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn-secondary,.btn-secondary:hover,.btn-secondary:active{
+    background-color: var(---btn-secondary);
+}
+.accordion-button::after{
+    --bs-accordion-btn-icon-width: 1rem;
+    background-image: url(../assets/images/icons/_+_.png);
+}
+.accordion-button:not(.collapsed)::after {
+    --bs-accordion-btn-icon-transform:rotate(315deg);
+    background-image: url(../assets/images/icons/_+_.png);
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+.accordion-item{
+    border-width:1px 0 !important;
+}
+.small-container{
+    max-width: 840px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
