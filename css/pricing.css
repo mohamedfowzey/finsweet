@@ -1,6 +1,7 @@
 .pricing-card{
     padding: 32px 40px;
     border-radius: 12px;
+    margin :16px
 }
 .pricing-card ul{
     padding-bottom: 32px;
