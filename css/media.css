@@ -1,94 +1,105 @@
 /* this is for both */
-p{
-    font-weight: var(---text-light);
-    font-size: 1rem;
-    line-height: 24px;
+p {
+  font-weight: var(---text-light);
+  font-size: 1rem;
+  line-height: 24px;
 }
-.text-qoute{
-    font-weight: var(---text-light);
-    font-size: 1.5rem;
-    line-height: 36px;
+.text-qoute {
+  font-weight: var(---text-light);
+  font-size: 1.5rem;
+  line-height: 36px;
 }
-.text-lg{
-font-size: 1.5rem;
-font-weight: var(---text-light);
-line-height: 2.25rem;
-
+.text-lg {
+  font-size: 1.5rem;
+  font-weight: var(---text-light);
+  line-height: 2.25rem;
 }
-.text-md{
-    
-font-size: 1.125rem;
-font-weight: var(---text-light);
-line-height: 1.7rem;
+.text-md {
+  font-size: 1.125rem;
+  font-weight: var(---text-light);
+  line-height: 1.7rem;
 }
-.text-normal{
-    
-font-size: 1rem;
-font-weight: var(---text-light);
-line-height: 1.5rem;
+.text-normal {
+  font-size: 1rem;
+  font-weight: var(---text-light);
+  line-height: 1.5rem;
 }
-.text-sm{
-    
-font-size: 0.875rem;
-font-weight: var(---text-light);
-line-height: 1.3rem;
+.text-sm {
+  font-size: 0.875rem;
+  font-weight: var(---text-light);
+  line-height: 1.3rem;
 }
-.text-xs{
-    
-font-size: 0.75rem;
-font-weight: var(---text-light);
-line-height: 1.125rem;
+.text-xs {
+  font-size: 0.75rem;
+  font-weight: var(---text-light);
+  line-height: 1.125rem;
 }
 /* this is for lagrge screens */
-@media screen and (min-width: 425px){
-    h1{
-        font-weight:var(---text-bold) ;
-        font-size: 3.375rem;
-        line-height: 4.625rem;
-    }
-    h2{
-        font-weight: var(---text-bold);
-        font-size: 3rem;
-        line-height: 4rem;
-    }
-    h3{
-        font-weight: var(---text-bold);
-        font-size: 2.375rem;
-        line-height: 3.5rem;
-    }
-    h4{
-        font-weight: var(---text-regular);
-        font-size: 2.25rem;
-        line-height: 3.5rem;
-    }
-    h5{
-        font-weight: var(---text-regular);
-        line-height: 3rem;
-        font-size: 2rem;
-    }
-    h6{
-        font-weight: var(---text-bold);
-        line-height: 2.25rem;
-        font-size: 1.5rem;
-    }
-    
-} 
+@media screen and (min-width: 425px) {
+  h1 {
+    font-weight: var(---text-bold);
+    font-size: 3.375rem;
+    line-height: 4.625rem;
+  }
+  h2 {
+    font-weight: var(---text-bold);
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  h3 {
+    font-weight: var(---text-bold);
+    font-size: 2.375rem;
+    line-height: 3.5rem;
+  }
+  h4 {
+    font-weight: var(---text-regular);
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+  }
+  h5 {
+    font-weight: var(---text-regular);
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+  h6 {
+    font-weight: var(---text-bold);
+    line-height: 2.25rem;
+    font-size: 1.5rem;
+  }
+}
 /* this is for small screens */
-@media screen and (max-width: 425px){
-    h1{font-size: 2.5rem;line-height: 3.25rem;}
-    h2{font-size: 2rem;}
-    h3{font-size: 1.5rem;}
-    h4{font-size: 1.25rem;}
-    h5{
-        font-weight: var(---text-bold);
-        line-height: 1.5rem;
-        font-size: 1rem;
-    }
-    h6{
-        font-weight: var(---text-bold);
-        line-height: 1.3125rem;
-        font-size: 0.875rem;
-    }
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+  h5 {
+    font-weight: var(---text-bold);
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  h6 {
+    font-weight: var(---text-bold);
+    line-height: 1.3125rem;
+    font-size: 0.875rem;
+  }
 }
 
-
+@media screen and (max-width: 991px) {
+  .bg-color {
+    position: static !important;
+  }
+  .bg-img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
