@@ -68,7 +68,7 @@ p {
   }
 }
 /* this is for small screens */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   h1 {
     font-size: 2.5rem;
     line-height: 3.25rem;
@@ -92,9 +92,6 @@ p {
     line-height: 1.3125rem;
     font-size: 0.875rem;
   }
-}
-
-@media screen and (max-width: 991px) {
   .bg-color {
     position: static !important;
   }
@@ -103,3 +100,5 @@ p {
     padding-right: 0;
   }
 }
+
+
